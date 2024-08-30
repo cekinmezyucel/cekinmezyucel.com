@@ -1,0 +1,64 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header.header {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-bottom: 20px;
+}
+
+.intro-text h1 {
+    font-size: 36px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.intro-text p {
+    font-size: 18px;
+    margin: 5px 0 20px;
+    font-weight: 400;
+}
+
+.social-links a img {
+    width: 35px;
+    height: 35px;
+    margin: 0 10px;
+}
+
+section.content {
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section.content h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+section.content p {
+    font-size: 16px;
+    line-height: 1.6;
+}
