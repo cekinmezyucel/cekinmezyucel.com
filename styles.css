@@ -42,6 +42,15 @@ header.header {
     margin: 0 10px;
 }
 
+.app-links {
+    margin-top: 20px;
+}
+
+.app-links a {
+    color: #fff;
+    font-weight: bold;
+}
+
 section.content {
     padding: 50px 20px;
     max-width: 1000px;
