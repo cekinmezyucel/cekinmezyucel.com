@@ -4,7 +4,7 @@ class Header extends HTMLElement {
     }
 
     connectedCallback() {
-        const isHome = window.location.pathname.endsWith('index.html');
+        const isHome = window.location.pathname.endsWith('index.html') || window.location.pathname === '/';
         const linkText = isHome ? 'Blog' : 'Home';
         const linkHref = isHome ? 'blog.html' : 'index.html';
 
