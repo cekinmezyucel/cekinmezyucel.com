@@ -4,6 +4,10 @@ class Header extends HTMLElement {
     }
 
     connectedCallback() {
+        const isHome = window.location.pathname.endsWith('index.html');
+        const linkText = isHome ? 'Blog' : 'Home';
+        const linkHref = isHome ? 'blog.html' : 'index.html';
+
         this.innerHTML = `
         <header class="header">
             <div class="profile-image">
@@ -19,8 +23,7 @@ class Header extends HTMLElement {
                             alt="LinkedIn" src="../images/linkedin-logo.png"></a>
                 </div>
                 <div class="app-links">
-                    <a href="index.html" rel="noopener noreferrer">Home</a> /
-                    <a href="blog.html" rel="noopener noreferrer">Blog</a>
+                    <a href="${linkHref}" rel="noopener noreferrer">${linkText}</a>
                 </div>
             </div>
         </header>
