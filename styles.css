@@ -16,6 +16,11 @@ header.header {
     color: #fff;
 }
 
+footer.footer {
+    text-align: center;
+    padding: 20px;
+}
+
 .profile-image img {
     width: 150px;
     height: 150px;
