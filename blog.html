@@ -7,20 +7,13 @@
     <link href="styles.css" rel="stylesheet">
     <script src="components/header.js" type="text/javascript" defer></script>
     <script src="components/footer.js" type="text/javascript" defer></script>
+    <script src="scripts/renderMarkdown.js" type="text/javascript" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
 <header-component></header-component>
 <main>
-    <section class="content">
-        <article>
-            <h2>Post 1 Title</h2>
-            <p>This is the content of your first blog post...</p>
-        </article>
-        <article>
-            <h2>Post 2 Title</h2>
-            <p>This is the content of your second blog post...</p>
-        </article>
-        <!-- Add more blog posts here -->
+    <section class="content" id="blog-content">
     </section>
 </main>
 <footer-component></footer-component>
