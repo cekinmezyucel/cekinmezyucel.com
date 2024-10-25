@@ -22,7 +22,7 @@ For listing the posts, I believe I need a card component for each row. So, I'll 
 ```
 
 For reusing this card component, I want to get benefit from the Web Components like I did for the header and the footer.
-So, I'll create a new file named `blogLink.js` and put the card component code in it.
+So, I'll create a new file named `blog-link.js` and put the card component code in it.
 
 ```javascript
 class BlogLink extends HTMLElement {
@@ -84,7 +84,7 @@ And our new html file for rendering the blog posts will be like this:
     <link href="styles.css" rel="stylesheet">
     <script src="components/header.js" type="text/javascript" defer></script>
     <script src="components/footer.js" type="text/javascript" defer></script>
-    <script src="scripts/renderMarkdown.js" type="text/javascript" defer></script>
+    <script src="scripts/render-markdown.js" type="text/javascript" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
