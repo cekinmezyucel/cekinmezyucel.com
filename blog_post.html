@@ -7,17 +7,13 @@
     <link href="styles.css" rel="stylesheet">
     <script src="components/header.js" type="text/javascript" defer></script>
     <script src="components/footer.js" type="text/javascript" defer></script>
-    <script src="components/blogLink.js" type="text/javascript" defer></script>
+    <script src="scripts/renderMarkdown.js" type="text/javascript" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
 <header-component></header-component>
 <main>
-    <section class="content">
-        <blog-link-component link-text="How to Build a List Component" link-href="how_to_build_a_list_component"
-                             date-text="2024-10-25"></blog-link-component>
-        <blog-link-component link-text="First Blog Post" link-href="first_blog_post"
-                             date-text="2024-10-19"></blog-link-component>
-    </section>
+    <section class="content" id="blog-content"></section>
 </main>
 <footer-component></footer-component>
 </body>
