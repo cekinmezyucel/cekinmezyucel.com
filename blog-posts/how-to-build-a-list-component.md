@@ -21,6 +21,8 @@ For listing the posts, I believe I need a card component for each row. So, I'll 
 </div>
 ```
 
+## Step 2: Reuse the Component
+
 For reusing this card component, I want to get benefit from the Web Components like I did for the header and the footer.
 So, I'll create a new file named `blog-link.js` and put the card component code in it.
 
@@ -46,6 +48,8 @@ class BlogLink extends HTMLElement {
 
 customElements.define('blog-link-componen
 ```
+
+## Step 3: Render the list's content
 
 The only problem we have is that the existing Markdown renderer doesn't support multiple files. It's just hardcoded to
 the existing file. So, I'll update the renderer to support multiple files.
