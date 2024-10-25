@@ -10,7 +10,7 @@ class BlogLink extends HTMLElement {
 
         this.innerHTML = `
         <div class="card">
-            <a href="blog_post.html?post=${linkHref}" class="blog-link">${linkText}</a>
+            <a href="blog-post.html?post=${linkHref}" class="blog-link">${linkText}</a>
             <p class="blog-date">${dateText}</p>
         </div>
         `;

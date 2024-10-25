@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const post = urlParams.get('post');
 
     if (post) {
-        fetch(`blog_posts/${post}.md`)
+        fetch(`blog-posts/${post}.md`)
             .then(response => response.text())
             .then(markdown => {
                 blogPostContent.innerHTML = marked.marked(markdown);
