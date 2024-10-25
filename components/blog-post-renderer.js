@@ -1,7 +1,4 @@
 class BlogPostRenderer extends HTMLElement {
-    constructor() {
-        super();
-    }
 
     connectedCallback() {
         const blogPostContent = this;

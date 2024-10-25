@@ -1,7 +1,4 @@
 class BlogLink extends HTMLElement {
-    constructor() {
-        super();
-    }
 
     connectedCallback() {
         const linkText = this.getAttribute('link-text');
