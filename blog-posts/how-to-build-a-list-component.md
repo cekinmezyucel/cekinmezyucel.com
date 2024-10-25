@@ -88,7 +88,7 @@ And our new html file for rendering the blog posts will be like this:
     <link href="styles.css" rel="stylesheet">
     <script src="components/header.js" type="text/javascript" defer></script>
     <script src="components/footer.js" type="text/javascript" defer></script>
-    <script src="scripts/render-markdown.js" type="text/javascript" defer></script>
+    <script src="scripts/blog-post-renderer.js" type="text/javascript" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
