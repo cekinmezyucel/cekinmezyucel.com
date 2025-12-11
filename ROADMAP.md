@@ -1,8 +1,8 @@
 # Development Roadmap
 
-> **Last Updated:** 2025-12-07
-> **Current Phase:** Phase 0 (Planning Complete)
-> **Next Task:** Phase 1, Task 1 - Design System Planning
+> **Last Updated:** 2025-12-11
+> **Current Phase:** Phase 1 (Design System)
+> **Next Task:** Phase 1, Task 1.3 - Update Existing Pages with New Design
 
 ---
 
@@ -80,49 +80,52 @@ When returning to this project, tell your AI assistant:
 
 ---
 
-## Phase 1: Modern Design System ⏭️
+## Phase 1: Modern Design System 🚧
 
 **Goal:** Refresh the site with modern design before adding new features
 **Why First:** Better to build new features on a modern foundation
 
-### Task 1.1: Design System Planning ⏭️
-**Status:** Next Up
-**Files:** PLANNING.md (add design decisions section)
+### Task 1.1: Design System Planning ✅
+**Status:** Complete
+**Files:** PLANNING.md (design decisions section added)
 
-**Acceptance Criteria:**
-- [ ] Choose color palette (black/white + accent colors)
-- [ ] Select typography (modern fonts, sizing scale)
-- [ ] Define spacing system
-- [ ] Document design tokens (colors, fonts, spacing)
-- [ ] Get user approval on design direction
+**Completed:**
+- [x] Choose color palette (black/white + accent colors) → **Option C + Indigo**
+- [x] Select typography (modern fonts, sizing scale) → **Inter font**
+- [x] Define spacing system → **8px base scale**
+- [x] Document design tokens (colors, fonts, spacing) → **In PLANNING.md**
+- [x] Get user approval on design direction → **Approved**
 
-**Discussion Points:**
-- Modern portfolio inspiration (show examples)
-- Color palette options (present 2-3 options)
-- Font choices (Google Fonts or system fonts?)
+**Decisions Made:**
+- Style: Option C - Balanced Contrast (dark header/footer, light body)
+- Accent: Indigo (#6366f1)
+- Font: Inter (Google Fonts)
+- See PLANNING.md "Design System" section for full token reference
 
 ---
 
-### Task 1.2: CSS Architecture & Variables ⏸️
-**Status:** Planned
-**Files:** styles.css (refactor), new: css-variables.css
+### Task 1.2: CSS Architecture & Variables ✅
+**Status:** Complete
+**Files:** css/variables.css (new), styles.css (refactored), components/header.js, components/footer.js
 
-**Acceptance Criteria:**
-- [ ] Create CSS custom properties (variables) for design system
-- [ ] Set up color scheme (light/dark if desired)
-- [ ] Define typography scale
-- [ ] Create spacing utilities
-- [ ] Ensure mobile-first responsive approach
+**Completed:**
+- [x] Create CSS custom properties (variables) for design system → `css/variables.css`
+- [x] Set up color scheme with design tokens
+- [x] Define typography scale (Inter font, size scale)
+- [x] Create spacing utilities (8px base)
+- [x] Ensure mobile-first responsive approach
+- [x] Updated header component with navigation
+- [x] Updated footer with dynamic year
 
 **Technical Notes:**
-- Keep vanilla CSS, no frameworks
-- Use CSS custom properties (--variable-name)
-- Modern CSS features (Grid, Flexbox)
+- All colors, fonts, spacing now use CSS variables
+- Header now includes sticky navigation bar
+- Footer year updates automatically
 
 ---
 
-### Task 1.3: Update Existing Pages with New Design ⏸️
-**Status:** Planned
+### Task 1.3: Update Existing Pages with New Design ⏭️
+**Status:** Next Up
 **Files:** index.html, blog.html, blog-post.html, styles.css
 
 **Acceptance Criteria:**

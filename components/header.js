@@ -2,28 +2,28 @@ class Header extends HTMLElement {
 
     connectedCallback() {
         const isHome = window.location.pathname.endsWith('index.html') || window.location.pathname === '/';
-        const linkText = isHome ? 'Blog' : 'Home';
-        const linkHref = isHome ? 'blog.html' : 'index.html';
+        const isBlog = window.location.pathname.includes('blog');
 
         this.innerHTML = `
         <header class="header">
             <div class="profile-image">
-                <img alt="Yucel Cekinmez" src="../images/profile.jpg">
+                <img alt="Yucel Cekinmez" src="images/profile.jpg">
             </div>
             <div class="intro-text">
                 <h1>Yucel Cekinmez</h1>
                 <p>Software Engineer</p>
                 <div class="social-links">
-                    <a href="https://github.com/cekinmezyucel" rel="noopener noreferrer" target="_blank"><img
-                            alt="GitHub" src="../images/github-logo.png"></a>
-                    <a href="https://www.linkedin.com/in/cekinmezyucel" rel="noopener noreferrer" target="_blank"><img
-                            alt="LinkedIn" src="../images/linkedin-logo.png"></a>
-                </div>
-                <div class="app-links">
-                    <a href="${linkHref}" rel="noopener noreferrer">${linkText}</a>
+                    <a href="https://github.com/cekinmezyucel" rel="noopener noreferrer" target="_blank">GitHub</a>
+                    <a href="https://www.linkedin.com/in/cekinmezyucel" rel="noopener noreferrer" target="_blank">LinkedIn</a>
                 </div>
             </div>
         </header>
+        <nav>
+            <ul>
+                <li><a href="index.html" ${isHome ? 'class="active"' : ''}>Home</a></li>
+                <li><a href="blog.html" ${isBlog ? 'class="active"' : ''}>Blog</a></li>
+            </ul>
+        </nav>
     `;
     }
 

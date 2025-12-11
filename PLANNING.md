@@ -1,7 +1,7 @@
 # Personal Blog - Planning & Development Guide
 
-> **Last Updated:** 2025-12-07
-> **Status:** Planning Complete - Ready for Roadmap Creation
+> **Last Updated:** 2025-12-11
+> **Status:** Phase 1 - Design System In Progress
 
 ---
 
@@ -161,12 +161,54 @@ Build a lean but informative personal developer site featuring:
 **Current State:** Outdated look with blue links and white background
 
 #### Design Direction
-**Color Scheme:** Black and white contrast with accent colors
+**Chosen Style:** Option C - Balanced Contrast (dark header/footer, light body)
+**Color Scheme:** Black and white contrast with indigo accent
 **Inspiration:** Modern, clean, professional developer portfolio
 
+#### Design System (Finalized 2025-12-11)
+
+**Color Palette:**
+| Token | Value | Usage |
+|-------|-------|-------|
+| `--bg-hero` | `#000000` | Header and footer background |
+| `--bg-primary` | `#fafafa` | Main body background |
+| `--bg-card` | `#ffffff` | Card/surface backgrounds |
+| `--text-primary` | `#111111` | Main text color |
+| `--text-secondary` | `#666666` | Muted/secondary text |
+| `--text-inverse` | `#ffffff` | Text on dark backgrounds |
+| `--accent` | `#6366f1` | Links, highlights, interactive elements |
+| `--accent-hover` | `#4f46e5` | Hover state for accent |
+| `--border` | `#e5e5e5` | Borders and dividers |
+
+**Typography:**
+- **Font Family:** Inter (Google Fonts) with system font fallbacks
+- **Fallback Stack:** `-apple-system, BlinkMacSystemFont, sans-serif`
+- **Weights Used:** 400 (regular), 500 (medium), 600 (semibold), 700 (bold)
+
+**Spacing Scale (8px base):**
+| Token | Value |
+|-------|-------|
+| `--space-1` | `4px` |
+| `--space-2` | `8px` |
+| `--space-3` | `12px` |
+| `--space-4` | `16px` |
+| `--space-5` | `24px` |
+| `--space-6` | `32px` |
+| `--space-7` | `48px` |
+| `--space-8` | `64px` |
+| `--space-9` | `80px` |
+
+**Border Radius:**
+| Token | Value | Usage |
+|-------|-------|-------|
+| `--radius-sm` | `4px` | Tags, small elements |
+| `--radius-md` | `6px` | Buttons, inputs |
+| `--radius-lg` | `8px` | Cards |
+| `--radius-full` | `50%` | Avatars, circular elements |
+
 #### Areas to Improve
-- ✅ Color scheme (outdated blue/white → modern high-contrast)
-- ✅ Typography (fonts, sizing, readability improvements)
+- ✅ Color scheme (outdated blue/white → modern high-contrast) - DONE
+- ✅ Typography (fonts, sizing, readability improvements) - DONE
 - ✅ Layout structure (modernize grid/flex layouts)
 - ⏸️ Mobile responsiveness (current design has basics, can enhance)
 - ⏸️ Animations/transitions (not priority, can add later)
@@ -202,7 +244,7 @@ Build a lean but informative personal developer site featuring:
 
 ### Questions to Resolve
 - [ ] Share resume/experience content for new page?
-- [ ] Preferred color palette for design refresh?
+- [x] Preferred color palette for design refresh? → **Option C + Indigo accent**
 - [ ] Blog post metadata format (YAML frontmatter vs JSON manifest)?
 
 ---

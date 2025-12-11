@@ -1,9 +1,10 @@
 class Footer extends HTMLElement {
 
     connectedCallback() {
+        const year = new Date().getFullYear();
         this.innerHTML = `
         <footer class="footer">
-            <p>&copy; 2024 Yucel Cekinmez</p>
+            <p>&copy; ${year} Yucel Cekinmez. All rights reserved.</p>
         </footer>
     `;
     }
