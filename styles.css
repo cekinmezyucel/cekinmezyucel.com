@@ -206,6 +206,10 @@ section.content p {
     margin-top: var(--space-3);
 }
 
+.card-tags {
+    margin-top: var(--space-3);
+}
+
 /* ===================
    TAGS
    =================== */

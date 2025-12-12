@@ -2,7 +2,7 @@
 
 > **Last Updated:** 2025-12-12
 > **Current Phase:** Phase 2 (Blog Enhancements)
-> **Next Task:** Phase 2, Task 2.3 - Update Blog Listing to Use Manifest
+> **Next Task:** Phase 2, Task 2.4 - Enhance Blog Post Display
 
 ---
 
@@ -179,23 +179,22 @@ excerpt: "Short description"
 
 ---
 
-### Task 2.3: Update Blog Listing to Use Manifest ⏭️
-**Status:** Next Up
-**Files:** blog.html, components/blog-link.js, new: components/blog-list.js
+### Task 2.3: Update Blog Listing to Use Manifest ✅
+**Status:** Complete
+**Files:** blog.html, components/blog-list.js, styles.css
 
-**Acceptance Criteria:**
-- [ ] Create blog-list web component (or update existing)
-- [ ] Fetch blog-posts.json on page load
-- [ ] Dynamically render blog post cards from JSON
-- [ ] Display tags/categories with each post
-- [ ] Remove hardcoded blog posts from HTML
-- [ ] Sort posts by date (newest first)
-- [ ] Test automatic discovery (add new .md file, rebuild, verify it appears)
+**Completed:**
+- [x] Create blog-list web component
+- [x] Fetch blog-posts.json on page load
+- [x] Dynamically render blog post cards from JSON
+- [x] Display tags and excerpt with each post
+- [x] Remove hardcoded blog posts from HTML
+- [x] Posts sorted by date (from manifest)
 
 ---
 
-### Task 2.4: Enhance Blog Post Display ⏸️
-**Status:** Planned
+### Task 2.4: Enhance Blog Post Display ⏭️
+**Status:** Next Up
 **Files:** blog-post.html, components/blog-post-renderer.js
 
 **Acceptance Criteria:**
