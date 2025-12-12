@@ -1,3 +1,10 @@
+---
+title: "How to Build a List Component"
+date: 2024-10-25
+tags: [JavaScript, Web Components, Tutorial]
+excerpt: "Learn how to create a reusable list component using Web Components to display blog posts."
+---
+
 # How to Build a List Component
 
 Wow! The first day of my blog and I'm already started to write my second post. I'm on fire! 🔥

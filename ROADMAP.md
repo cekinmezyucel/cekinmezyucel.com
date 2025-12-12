@@ -2,7 +2,7 @@
 
 > **Last Updated:** 2025-12-12
 > **Current Phase:** Phase 2 (Blog Enhancements)
-> **Next Task:** Phase 2, Task 2.1 - Add Frontmatter to Existing Posts
+> **Next Task:** Phase 2, Task 2.3 - Update Blog Listing to Use Manifest
 
 ---
 
@@ -143,56 +143,44 @@ When returning to this project, tell your AI assistant:
 
 **Goal:** Make blog self-managing with automatic post discovery and metadata
 
-### Task 2.1: Add Frontmatter to Existing Posts ⏭️
-**Status:** Next Up
+### Task 2.1: Add Frontmatter to Existing Posts ✅
+**Status:** Complete
 **Files:** blog-posts/*.md
 
-**Acceptance Criteria:**
-- [ ] Decide on metadata format (YAML frontmatter recommended)
-- [ ] Add frontmatter to existing blog posts:
-  - Title
-  - Date
-  - Tags/categories
-  - Excerpt (optional)
-- [ ] Document metadata schema
+**Completed:**
+- [x] Decided on YAML frontmatter format
+- [x] Added frontmatter to first-blog-post.md
+- [x] Added frontmatter to how-to-build-a-list-component.md
 
-**Example Frontmatter:**
+**Frontmatter Schema:**
 ```yaml
 ---
-title: "My Post Title"
-date: 2025-12-07
-tags: [JavaScript, Tutorial]
-excerpt: "Short description of the post"
+title: "Post Title"
+date: YYYY-MM-DD
+tags: [Tag1, Tag2]
+excerpt: "Short description"
 ---
 ```
 
 ---
 
-### Task 2.2: Create Blog Post Manifest Generator ⏸️
-**Status:** Planned
-**Files:** build-blog.js (new), package.json (new), blog-posts.json (generated)
+### Task 2.2: Create Blog Post Manifest Generator ✅
+**Status:** Complete
+**Files:** build-blog.js, package.json, blog-posts.json, .gitignore
 
-**Acceptance Criteria:**
-- [ ] Initialize npm project (package.json)
-- [ ] Add gray-matter dependency (if using YAML frontmatter)
-- [ ] Create Node.js script to scan /blog-posts/ directory
-- [ ] Extract metadata from each .md file
-- [ ] Generate blog-posts.json manifest with:
-  - Post slug (filename)
-  - Title, date, tags, excerpt
-  - Posts sorted by date (descending)
-- [ ] Add npm script to run build: `npm run build:blog`
-- [ ] Document process in README or AGENTS.md
-
-**Technical Notes:**
-- Keep script simple (< 100 lines)
-- Use only Node core modules + gray-matter
-- No complex build tools
+**Completed:**
+- [x] Initialize npm project (package.json)
+- [x] Add gray-matter dependency
+- [x] Create Node.js script to scan /blog-posts/ directory
+- [x] Extract metadata from each .md file
+- [x] Generate blog-posts.json manifest (sorted by date descending)
+- [x] Add npm script: `npm run build:blog`
+- [x] Add node_modules to .gitignore
 
 ---
 
-### Task 2.3: Update Blog Listing to Use Manifest ⏸️
-**Status:** Planned
+### Task 2.3: Update Blog Listing to Use Manifest ⏭️
+**Status:** Next Up
 **Files:** blog.html, components/blog-link.js, new: components/blog-list.js
 
 **Acceptance Criteria:**

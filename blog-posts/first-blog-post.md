@@ -1,4 +1,9 @@
-
+---
+title: "Welcome to My Blog"
+date: 2024-10-19
+tags: [Personal, Journey]
+excerpt: "Hello, folks! This is my first blog post. A backend engineer's journey into frontend development."
+---
 
 # Welcome to my blog!
 
