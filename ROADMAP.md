@@ -1,8 +1,8 @@
 # Development Roadmap
 
-> **Last Updated:** 2025-12-11
-> **Current Phase:** Phase 1 (Design System)
-> **Next Task:** Phase 1, Task 1.3 - Update Existing Pages with New Design
+> **Last Updated:** 2025-12-12
+> **Current Phase:** Phase 2 (Blog Enhancements)
+> **Next Task:** Phase 2, Task 2.1 - Add Frontmatter to Existing Posts
 
 ---
 
@@ -80,7 +80,7 @@ When returning to this project, tell your AI assistant:
 
 ---
 
-## Phase 1: Modern Design System 🚧
+## Phase 1: Modern Design System ✅
 
 **Goal:** Refresh the site with modern design before adding new features
 **Why First:** Better to build new features on a modern foundation
@@ -124,26 +124,27 @@ When returning to this project, tell your AI assistant:
 
 ---
 
-### Task 1.3: Update Existing Pages with New Design ⏭️
-**Status:** Next Up
-**Files:** index.html, blog.html, blog-post.html, styles.css
+### Task 1.3: Update Existing Pages with New Design ✅
+**Status:** Complete
+**Files:** index.html, blog.html, blog-post.html, styles.css, components/blog-link.js
 
-**Acceptance Criteria:**
-- [ ] Apply new design to home page
-- [ ] Apply new design to blog listing
-- [ ] Apply new design to blog post viewer
-- [ ] Update web components styling
-- [ ] Test on mobile devices
-- [ ] Verify Vercel deployment looks correct
+**Completed:**
+- [x] Apply new design to home page
+- [x] Apply new design to blog listing
+- [x] Apply new design to blog post viewer
+- [x] Update web components styling (fixed blog-link classes)
+- [x] Add blog post content styling (headings, code, lists, blockquotes, tables)
+- [x] Add mobile responsive styles
+- [ ] Verify Vercel deployment looks correct (manual step)
 
 ---
 
-## Phase 2: Blog Enhancements ⏸️
+## Phase 2: Blog Enhancements ⏭️
 
 **Goal:** Make blog self-managing with automatic post discovery and metadata
 
-### Task 2.1: Add Frontmatter to Existing Posts ⏸️
-**Status:** Planned
+### Task 2.1: Add Frontmatter to Existing Posts ⏭️
+**Status:** Next Up
 **Files:** blog-posts/*.md
 
 **Acceptance Criteria:**
