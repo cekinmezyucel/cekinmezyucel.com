@@ -1,8 +1,8 @@
 # Development Roadmap
 
 > **Last Updated:** 2025-12-12
-> **Current Phase:** Phase 3 (Experience/Resume Page)
-> **Next Task:** Phase 3, Task 3.1 - Resume Content Preparation
+> **Current Phase:** Phase 4 (Meeting Calendar Integration)
+> **Next Task:** Phase 4, Task 4.1 - Calendly Setup
 
 ---
 
@@ -206,42 +206,26 @@ excerpt: "Short description"
 
 ---
 
-## Phase 3: Experience/Resume Page ⏭️
+## Phase 3: Experience/Resume Page ✅ (Decided Against)
 
-**Goal:** Create dedicated page showcasing professional background
+**Original Goal:** Create dedicated page showcasing professional background
 
-### Task 3.1: Resume Content Preparation ⏸️
-**Status:** Planned
-**Files:** TBD (user to provide resume content)
+**Decision (2025-12-12):** Skip this phase - use minimal portfolio approach instead
 
-**Acceptance Criteria:**
-- [ ] User provides resume content or structure
-- [ ] Decide on page layout/sections:
-  - Work history
-  - Skills/technologies
-  - Certifications
-  - Personal projects
-- [ ] Agree on design approach (timeline? cards? table?)
+**What we did instead:**
+- ✅ Enhanced homepage with personal, conversational intro
+- ✅ LinkedIn handles full CV (link already in header)
+- ✅ Blog demonstrates expertise through content
 
-**Blocker:** Waiting for user to share resume content
+**Reasoning:**
+- Senior developers typically keep portfolios minimal
+- Avoids duplicating CV content in two places
+- Less maintenance burden
+- More professional than skill bars and tech lists
 
 ---
 
-### Task 3.2: Create Experience Page ⏸️
-**Status:** Planned
-**Files:** experience.html (new), styles.css
-
-**Acceptance Criteria:**
-- [ ] Create experience.html page
-- [ ] Structure matches resume format
-- [ ] Include all required sections (work, skills, certs, projects)
-- [ ] Apply modern design system
-- [ ] Mobile responsive
-- [ ] Add to navigation (header component)
-
----
-
-## Phase 4: Meeting Calendar Integration ⏸️
+## Phase 4: Meeting Calendar Integration ⏭️
 
 **Goal:** Enable visitors to book meetings via Calendly
 

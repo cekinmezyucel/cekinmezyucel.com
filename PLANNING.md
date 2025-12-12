@@ -1,6 +1,6 @@
 # Personal Blog - Planning & Development Guide
 
-> **Last Updated:** 2025-12-11
+> **Last Updated:** 2025-12-12
 > **Status:** Phase 1 - Design System In Progress
 
 ---
@@ -15,7 +15,9 @@
 - **Approach:** Keep it simple, learn fundamentals, educational mindset
 
 ### Key Decisions Summary
-✅ Create dedicated Experience page (mirroring resume structure)
+✅ NO dedicated Experience page - enhanced homepage with personal intro instead
+✅ LinkedIn handles full CV/resume - no need to duplicate on site
+✅ Let the blog demonstrate expertise (show, don't tell)
 ✅ Implement automatic blog post discovery from Markdown files
 ✅ Add categories/tags to blog posts
 ✅ Modern design refresh (black/white contrast with accents)
@@ -53,10 +55,10 @@ Build a lean but informative personal developer site featuring:
 - ✅ Git version control with clean commit history
 
 ### Known Limitations
-- ❌ Blog posts must be manually added to HTML listing
-- ❌ No metadata extraction from Markdown (title, date, tags)
-- ❌ Design feels outdated
-- ❌ No dedicated experience/resume page
+- ✅ ~~Blog posts must be manually added to HTML listing~~ (Fixed: auto-discovery)
+- ✅ ~~No metadata extraction from Markdown~~ (Fixed: frontmatter + manifest)
+- ✅ ~~Design feels outdated~~ (Fixed: modern design system)
+- ✅ ~~No dedicated experience/resume page~~ (Decided against: minimal approach)
 - ❌ No meeting calendar integration
 
 ---
@@ -65,16 +67,20 @@ Build a lean but informative personal developer site featuring:
 
 ### 1. Experience/Resume Page
 
-**Decision:** Create dedicated page separate from home
-**Content Source:** User has up-to-date resume to reference
+**Decision:** ❌ NO dedicated Experience page
+**Reasoning:** Minimal portfolio approach - avoid duplicating CV content
 
-**Must Include:**
-- ✅ Work history (companies, roles, dates)
-- ✅ Skills and technologies
-- ✅ Personal/side projects
-- ✅ Certifications
+**What we did instead (2025-12-12):**
+- ✅ Enhanced homepage with personal, conversational intro
+- ✅ Mentions key experience (ClimatePartner, MediaMarktSaturn, payment platforms, energy markets)
+- ✅ Links to LinkedIn in header for full CV details
+- ✅ Blog demonstrates expertise through content (show, don't tell)
 
-**Important:** Structure should mirror existing resume format
+**Why this is better:**
+- Less maintenance (no need to update two places)
+- More professional (senior devs typically keep portfolios minimal)
+- Avoids "cringe" skill bars and technology lists
+- LinkedIn is the industry standard for detailed work history
 
 ---
 
