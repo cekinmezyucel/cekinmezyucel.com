@@ -1,8 +1,8 @@
 # Development Roadmap
 
 > **Last Updated:** 2025-12-12
-> **Current Phase:** Phase 2 (Blog Enhancements)
-> **Next Task:** Phase 2, Task 2.4 - Enhance Blog Post Display
+> **Current Phase:** Phase 3 (Experience/Resume Page)
+> **Next Task:** Phase 3, Task 3.1 - Resume Content Preparation
 
 ---
 
@@ -139,7 +139,7 @@ When returning to this project, tell your AI assistant:
 
 ---
 
-## Phase 2: Blog Enhancements ⏭️
+## Phase 2: Blog Enhancements ✅
 
 **Goal:** Make blog self-managing with automatic post discovery and metadata
 
@@ -193,19 +193,20 @@ excerpt: "Short description"
 
 ---
 
-### Task 2.4: Enhance Blog Post Display ⏭️
-**Status:** Next Up
-**Files:** blog-post.html, components/blog-post-renderer.js
+### Task 2.4: Enhance Blog Post Display ✅
+**Status:** Complete
+**Files:** components/blog-post-renderer.js, styles.css
 
-**Acceptance Criteria:**
-- [ ] Display post metadata (date, tags) on post page
-- [ ] Add "Back to Blog" navigation
-- [ ] Consider: Table of contents (future enhancement)
-- [ ] Consider: Related posts by tags (future enhancement)
+**Completed:**
+- [x] Strip frontmatter from rendered content
+- [x] Display post metadata (date, tags) on post page
+- [x] Add "Back to Blog" navigation
+- [x] Dynamic page title from post metadata
+- [x] Added CSS styles for post layout
 
 ---
 
-## Phase 3: Experience/Resume Page ⏸️
+## Phase 3: Experience/Resume Page ⏭️
 
 **Goal:** Create dedicated page showcasing professional background
 

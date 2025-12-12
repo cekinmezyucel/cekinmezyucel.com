@@ -211,6 +211,43 @@ section.content p {
 }
 
 /* ===================
+   BLOG POST
+   =================== */
+.post-nav {
+    margin-bottom: var(--space-5);
+}
+
+.post-nav a {
+    color: var(--text-secondary);
+    font-size: var(--text-sm);
+    font-weight: var(--font-medium);
+}
+
+.post-nav a:hover {
+    color: var(--accent);
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    margin-bottom: var(--space-5);
+    padding-bottom: var(--space-4);
+    border-bottom: 1px solid var(--border);
+}
+
+.post-date {
+    color: var(--text-secondary);
+    font-size: var(--text-sm);
+}
+
+.post-tags {
+    display: flex;
+    gap: var(--space-2);
+    flex-wrap: wrap;
+}
+
+/* ===================
    TAGS
    =================== */
 .tag {
